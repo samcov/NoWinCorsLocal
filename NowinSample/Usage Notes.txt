@@ -1,0 +1,4 @@
+﻿1. This is the server project(NowinSample), and it works with the SampleOwinApp project, which produces a dll
+2. In the SampleOwinApp project, in Sample.cs, app.Run(c =>, the path to the webserver root is specified in the line,
+	var p = Path.Combine(@"..\..\..\SampleOwinApp\", path.Substring(1));
+3. Note that the Hub is also defined in Sample.cs
